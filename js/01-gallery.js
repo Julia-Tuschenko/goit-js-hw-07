@@ -42,7 +42,7 @@ const instance = basicLightbox.create(`
 instance.show()
 };
 
-console.log(galleryRef);
+// console.log(galleryRef);
 
 
 
