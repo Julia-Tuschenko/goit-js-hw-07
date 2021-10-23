@@ -39,10 +39,32 @@ const img = evt.target.dataset.source;
 const instance = basicLightbox.create(`
     <img src="${img}" width="800" height="600">
 `);
-instance.show()
+
+instance.show();
 };
 
+
 // console.log(galleryRef);
+
+
+// window.addEventListener('keydown',(event) =>{
+//     if(event.code === `Escape`){
+//        return onclick;
+//     };
+// });
+
+    
+    // function onProject(event){
+    //     if(event('.basicLightbox')){
+    //         window.addEventListener('keydown',(event) =>{
+    //             if(event.code === `Escape`){
+                    
+    //             };
+    //         });
+    //     }
+    // }
+
+
 
 
 
